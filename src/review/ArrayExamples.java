@@ -6,7 +6,6 @@ public class ArrayExamples {
 
 	public static boolean allGreater(int min, int[] numbers) {
 		if (numbers.length == 0) {
-			// throw new ArrayIndexOutOfBoundsException("wrong!");
 			throw new IllegalArgumentException("Expected a non-empty array, got: " + Arrays.toString(numbers));
 		}
 		for (int i = 0; i < numbers.length; i++) {
